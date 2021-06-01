@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@media(max-width:480px){
+
+  html{
+    width:100%;
+  }
+.inner{
+  width:90%;
+  padding:0;
+  margin:0 auto;
+}
+.top{
+  padding:36px 5%;
+}
+.flex .box{
+  width:50%;
+  padding:0 5%;
+  box-sizing: border-box;
+}
+.naviul{
+  padding-top:100px;
+  top:0;
+}
+.open .naviul{
+  left:0;
+}
+footer .flex .box{
+  width:100%;
+  text-align: center;
+  margin-bottom:12px;
+}
+
+}

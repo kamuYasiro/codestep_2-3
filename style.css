@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+a{
+  text-decoration: none;
+}
+
+.inner{
+  width:70%;
+  padding:0 40px;
+  margin:0 auto;
+}
+.flex{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.top{
+  padding:36px 15%;
+  margin:0 auto;
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  background-color:rgba(255,255,255,0.9);
+}
+.top h1{
+  font-size:36px;
+}
+.top a{
+  position:relative;
+  z-index: 3;
+  color:black;
+}
+
+#button{
+  width:40px;
+  height:auto;
+  position:relative;
+  z-index: 3;
+  cursor: pointer;
+}
+.span{
+  display:block;
+  background-color: black;
+  width:36px;
+  height:3px;
+  position: absolute;
+}
+.humberger span:first-child{
+  top:10px;
+}
+.open span:nth-child(1) {
+  transform: translateY(6px) rotate(-45deg);
+  transition:all 0.5s;
+}
+.open span:nth-child(2) {
+  transform: translateY(-6px) rotate(45deg);
+  transition:all 0.5s;
+}
+.humberger span:last-child{
+  bottom:10px;
+}
+
+.mask{
+  background-color: rgba(0,0,0,0.8);
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index: 2;
+  display: none;
+}
+#navi{
+  position:fixed;
+  top:0;
+  width:100%;
+  height:100%;
+  z-index: 2;
+
+  display:none;
+}
+.open .naviul{
+  left:-10%;
+}
+.naviul{
+  position: relative;
+  z-index: 3;
+  padding-top:60px;
+  top:0;
+  left:-350px;
+  transition: 0.5s;
+}
+#navi li{
+  font-size:16px;
+  margin-bottom:24px;
+}
+#navi a{
+  color:white;
+}
+.block{
+  display: block;
+}
+
+
+.contents{
+  margin-top:110px;
+  margin-bottom:50px;
+}
+.contents .box{
+  width:23%;
+  margin-bottom:24px;
+}
+.contents .box img{
+  width:100%;
+  height:auto;
+}
+.contents .box h2{
+  font-size:20px;
+  font-weight:normal;
+  margin:12px 0 6px 0;
+}
+.contents .box p{
+  font-size:12px;
+}
+
+.more {
+  text-align: center;
+  padding:24px 0 60px 0;
+  font-size:16px;
+}
+.more a{
+  color:black;
+}
+
+footer{
+  padding-bottom:24px;
+  position:relative;
+  z-index: 3;
+}
+footer .box{
+  width:50%;
+}
+footer .box:last-child{
+  text-align: right;
+}
+footer a{
+  margin-right:3%;
+  color:black;
+  font-size:16px;
+}
+footer span{
+  font-size:12px;
+}
