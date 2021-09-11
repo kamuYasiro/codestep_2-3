@@ -53,6 +53,9 @@
   .inner .flex{
     width:100%;
   }
+   .flex .box p{
+    text-align:left;
+   }
 
   footer .flex{
     flex-wrap: wrap;
