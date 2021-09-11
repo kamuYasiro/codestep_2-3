@@ -6,7 +6,7 @@
     margin-bottom:36px;
   }
   .inner .flex{
-    width:62%;
+    width:72%;
    margin:0 auto;
   }
   .flex .box:first-child{
@@ -50,6 +50,9 @@
     .flex{
       width:90%;
     }
+  .inner .flex{
+    width:100%;
+  }
 
   footer .flex{
     flex-wrap: wrap;
