@@ -115,6 +115,10 @@ a{
 .contents .box img{
   width:100%;
   height:auto;
+  transition-duration:0.5s;
+}
+.contents .box img:hover{
+  opacity:0.8;
 }
 .contents .box h2{
   font-size:20px;
