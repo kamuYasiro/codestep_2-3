@@ -20,9 +20,6 @@ $(function(){
     }
   });
 
-  $('#alert').click(function(){
-    alert("お疲れ様です");
-  });
 
 
 });
