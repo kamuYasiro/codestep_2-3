@@ -33,6 +33,17 @@ iframe{
   z-index: 2;
 }
 
+@media(max-width:1200px){
+
+  .list{
+    width:75%;
+  }
+  iframe{
+    width:75%;
+  }
+
+  }
+
 @media(max-width:480px){
 
   .list{
